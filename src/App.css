@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #c3f47c;
+  background-image: url('./assets/bg2.jpg');
+}
+
+@media (max-width: 1050px) {
+  .med {
+    display: none;
+  }
+  .resolution {
+    display: block;
+  }
+}
+
+@media (min-width: 1051px) {
+  .resolution {
+    display: none;
+  }
+  .med {
+    display: block;
+  }
+}
